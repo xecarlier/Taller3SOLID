@@ -5,6 +5,7 @@ import java.util.List;
 public class Compra {
 	private Pago pago;
 	private PagoPayPal pagoPayPal;
+	
 	private List articulos;
 	
 	public Compra(Pago pago) {

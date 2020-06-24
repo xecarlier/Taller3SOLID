@@ -5,6 +5,7 @@ public class Pago {
 	
 	public void relizarCobro(double monto) {
 		//cargar el monto de compra al medio de pago
+	
 		
 	}
 	public void calcularImpuestosFactura() {

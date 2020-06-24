@@ -10,6 +10,7 @@ public class Compra {
 	
 	public Compra(Pago pago) {
 		//inicializaciones
+	
 		
 	}
 	 

@@ -6,6 +6,7 @@ public class Notificacion {
 	public void Notificar(Pago pago) {
 		if (tipoNotificacion==1) {
 			
+			
 			//enviarEMAIL();
 		}
 		else {

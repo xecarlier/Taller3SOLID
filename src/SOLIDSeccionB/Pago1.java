@@ -7,8 +7,10 @@ public class Pago1 implements Pago {
 		//cargar el monto de compra al medio de pago	
 	}
 	
+
 	public void generarFactura() {
 		//generar una nueva factura	
 	}
+
 
 }

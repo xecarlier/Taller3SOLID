@@ -7,7 +7,8 @@ public class Notificacion {
 		this.tipoNotificacion = tipoNotificacion;
 	}
 	
-	public void Notificar(Pago pago) {
+	public void Notificar(Pago1 pago) {
+		
 		tipoNotificacion.notificar(pago);
 	}
 }

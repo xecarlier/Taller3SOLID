@@ -1,14 +1,7 @@
 package SOLIDSeccionB;
 
-public class Pago {
-	//atributos aqui
+public interface Pago {
+	public void relizarCobro(double monto);
 	
-	public void relizarCobro(double monto) {
-		//cargar el monto de compra al medio de pago	
-	}
-	
-	public void generarFactura() {
-		//generar una nueva factura	
-	}
-
+	public void generarFactura();
 }

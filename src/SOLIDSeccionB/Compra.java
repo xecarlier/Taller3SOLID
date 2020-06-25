@@ -3,15 +3,13 @@ package SOLIDSeccionB;
 import java.util.List;
 
 public class Compra {
-	private Pago pago;
+	private Pago1 pago;
 	private PagoPayPal pagoPayPal;
-	
 	private List articulos;
 	
-	public Compra(Pago pago) {
+	public Compra(Pago1 pago) {
 		//inicializaciones
 	
-		
 	}
 	 
 	public void Compra(PagoPayPal pagoPaypal) {

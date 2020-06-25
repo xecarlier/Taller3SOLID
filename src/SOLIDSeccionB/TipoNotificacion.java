@@ -1,5 +1,5 @@
 package SOLIDSeccionB;
 
 public interface TipoNotificacion {
-	public void notificar(Pago pago);
+	public void notificar(Pago1 pago);
 }

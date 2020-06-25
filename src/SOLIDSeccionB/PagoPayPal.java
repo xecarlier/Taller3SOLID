@@ -1,12 +1,27 @@
 package SOLIDSeccionB;
 
-public class PagoPayPal extends Pago {
+public class PagoPayPal implements Pago {
 	private boolean loggedIn;//conexion a cuenta PayPal
-	public void realizarCobro(double monto) {
-		
+	
+
+	@Override
+	public void relizarCobro(double monto) {
 		if (!loggedIn) {
-			return;
+			
+			loggedInUser();
 		}
+		
 		//cargar el monto de compra al medio de pago
+	}
+
+	private void loggedInUser() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void generarFactura() {
+		// TODO Auto-generated method stub
+		
 	}
 }
